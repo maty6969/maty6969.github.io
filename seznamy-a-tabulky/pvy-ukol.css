@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+
+body {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    line-height: normal;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px auto;
+    box-sizing: content-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(0, 0, 155);
+}
+
+table {
+    width: 1000px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: rgb(198, 234, 255);
+}
+
+tfoot {
+    background-color: rgb(198, 234, 255);
+}
+
+td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+td.number {
+    text-align: right;
+}
+
+.red {
+    color: red;
+}
+
+
+caption {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    vertical-align: middle;
+    text-align: center;
+}
