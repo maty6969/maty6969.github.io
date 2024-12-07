@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+    <head>
+        <title>Převody jednotek délky</title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="bg-info text-center">
+            <h1 class="display-4 text-light p-3">Převody jednotek délky</h1>
+        </header>
+        <main class="container mt-4">
+            <p><a href="https://www.jednotky.cz/delka">Článek o převodech
+                    jednotek</a></p>
+            <form>
+                <div class="mb-3">
+                    <label for="inputValue" class="form-label">Zadejte
+                        hodnotu</label>
+                    <input type="number" class="form-control" id="inputValue"
+                        placeholder="Např. 100">
+                </div>
+                <div class="mb-3">
+                    <label for="fromUnit" class="form-label">Z jednotky</label>
+                    <select id="fromUnit" class="form-select">
+                        <option value="mm">Milimetry (mm)</option>
+                        <option value="cm">Centimetry (cm)</option>
+                        <option value="dm">Decimetry (dm)</option>
+                        <option value="m">Metry (m)</option>
+                        <option value="km">Kilometry (km)</option>
+                        <option value="mi">Míle (mi)</option>
+                        <option value="yd">Yardy (yd)</option>
+                        <option value="in">Palce (in)</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="toUnit" class="form-label">Do jednotky</label>
+                    <select id="toUnit" class="form-select">
+                        <option value="mm">Milimetry (mm)</option>
+                        <option value="cm">Centimetry (cm)</option>
+                        <option value="dm">Decimetry (dm)</option>
+                        <option value="m">Metry (m)</option>
+                        <option value="km">Kilometry (km)</option>
+                        <option value="mi">Míle (mi)</option>
+                        <option value="yd">Yardy (yd)</option>
+                        <option value="in">Palce (in)</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary"
+                    id="convertBtn">Převést</button>
+            </form>
+            <div id="result" class="mt-4 display-6"></div>
+        </main>
+        <footer class="bg-dark text-light text-center p-3 mt-4">
+            <p>&nbsp; 2024 - Matěj Bilík, IT2</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+
+</html>
