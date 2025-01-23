@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://pressstart.vip/images/uploads/assets/cityskyline.png') no-repeat center center;
+    background-size: cover;
+}
+
+canvas {
+    background-color: black;
+    border: 2px solid white;
+}
